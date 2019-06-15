@@ -1,0 +1,30 @@
+{
+    "name": "@djthoms/eslint-config",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/atomicpages/eslint-config.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint-config-prettier": "^4.3.0",
+        "eslint-plugin-flowtype": "^3.9.1",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.13.0",
+        "eslint-plugin-react-hooks": "^1.6.0"
+    },
+    "peerDependencies": {
+        "eslint": "^5.0.0",
+        "prettier": "^1.0.0"
+    },
+    "homepage": "https://github.com/atomicpages/eslint-config#readme"
+}
