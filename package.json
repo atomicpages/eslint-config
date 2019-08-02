@@ -1,6 +1,6 @@
 {
     "name": "@djthoms/eslint-config",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -12,10 +12,12 @@
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^1.13.0",
+        "@typescript-eslint/parser": "^1.13.0",
         "babel-eslint": "^10.0.1",
-        "eslint-config-prettier": "^4.3.0",
+        "eslint-config-prettier": "^6.0.0",
         "eslint-plugin-flowtype": "^3.9.1",
         "eslint-plugin-jsx-a11y": "^6.2.1",
         "eslint-plugin-prettier": "^3.1.0",
@@ -24,7 +26,12 @@
     },
     "peerDependencies": {
         "eslint": "^5.0.0",
-        "prettier": "^1.0.0"
+        "prettier": "^1.18.2",
+        "typescript": "^3.5.3"
     },
-    "homepage": "https://github.com/atomicpages/eslint-config#readme"
+    "homepage": "https://github.com/atomicpages/eslint-config#readme",
+    "devDependencies": {
+        "@djthoms/prettier-config": "^1.0.0",
+        "prettier": "^1.18.2"
+    }
 }
