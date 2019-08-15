@@ -1,6 +1,5 @@
 module.exports = {
     extends: [
-        '@djthomps/eslint-config/esmodules',
         'plugin:react/recommended',
         'plugin:jsx-a11y/recommended',
         'prettier/react',
