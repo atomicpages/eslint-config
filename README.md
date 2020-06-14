@@ -4,11 +4,26 @@ My eslint config settings.
 
 ## Usage
 
-```bash
+```sh
 npm i eslint prettier @djthoms/eslint-config --save-dev
 ```
 
-### Sample usage with typescript + react
+## Plugins
+
+-   eslint-config-prettier
+-   eslint-plugin-flowtype
+-   eslint-plugin-import
+-   eslint-plugin-jsx-a11y
+-   eslint-plugin-prettier
+-   eslint-plugin-react
+-   eslint-plugin-react-hooks
+
+## Parsers
+
+-   babel-eslint
+-   @typescript-eslint/parser
+
+## Sample usage with typescript + react
 
 ```js
 module.exports = {
@@ -61,10 +76,11 @@ npx eslint src/**/*.{js,jsx}
 ```
 
 ## Available Configurations
+
 This package comes with several configurations. They're detailed below:
 
-| Export                           | Description                                                                                                                                                      |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Export                            | Description                                                                                                                                                      |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | @djthoms/eslint-config            | Main export form the package. This sets up eslint with the recommended config and prettier                                                                       |
 | @djthoms/eslint-config/esmodules  | Sets babel-eslint as the parser, es6 env, modules, and the ecmaVersion to 2018                                                                                   |
 | @djthoms/eslint-config/react      | A generic config for react projects that combines multiple react eslint plugins for accessibility, JSX, and more. Use with esmodules or typescript, but not both |

@@ -1,5 +1,7 @@
 module.exports = {
     extends: [
+        'plugin:import/errors',
+        'plugin:import/warnings',
         'plugin:react/recommended',
         'plugin:jsx-a11y/recommended',
         'prettier/react',
