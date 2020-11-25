@@ -37,6 +37,6 @@
     },
     "prettier": "@djthoms/prettier-config",
     "devDependencies": {
-        "@djthoms/prettier-config": "^2.0.0"
+        "@djthoms/prettier-config": "^3.0.0"
     }
 }
