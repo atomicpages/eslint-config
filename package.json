@@ -1,6 +1,6 @@
 {
     "name": "@djthoms/eslint-config",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -10,7 +10,10 @@
         "type": "git",
         "url": "git+https://github.com/atomicpages/eslint-config.git"
     },
-    "keywords": ["eslint", "eslint-config"],
+    "keywords": [
+        "eslint",
+        "eslint-config"
+    ],
     "author": "Dennis Thompson",
     "license": "MIT",
     "dependencies": {
