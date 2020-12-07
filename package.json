@@ -18,7 +18,7 @@
     "license": "MIT",
     "dependencies": {
         "babel-eslint": "^10.0.0",
-        "eslint-config-prettier": "^6.0.0",
+        "eslint-config-prettier": "^7.0.0",
         "eslint-plugin-flowtype": "^5.0.0",
         "eslint-plugin-import": "^2.0.0",
         "eslint-plugin-jsx-a11y": "^6.0.0",
