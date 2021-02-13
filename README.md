@@ -38,6 +38,7 @@ module.exports = {
     extends: [
         '@djthoms/eslint-config',
         '@djthoms/eslint-config/react',
+        '@djthoms/eslint-config/react-typescript',
         '@djthoms/eslint-config/typescript',
     ],
 };
@@ -78,11 +79,12 @@ npx eslint 'src/**/*.{js,jsx}'
 
 This package comes with several configurations. They're detailed below:
 
-| Export                              | Description                                                                                                                                                      |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `@djthoms/eslint-config`            | Main export form the package. This sets up eslint with the recommended config and prettier                                                                       |
-| `@djthoms/eslint-config/esmodules`  | Sets @babel/eslint-parser as the parser, es6 env, modules, and the ecmaVersion to 2018                                                                           |
-| `@djthoms/eslint-config/jest`       | A generic config for writing jest tests with testing-library                                                                                                     |
-| `@djthoms/eslint-config/react`      | A generic config for react projects that combines multiple react eslint plugins for accessibility, JSX, and more. Use with esmodules or typescript, but not both |
-| `@djthoms/eslint-config/flow`       | A generic flow config that can be used with or without React                                                                                                     |
-| `@djthoms/eslint-config/typescript` | A generic typescript config that sets up `@typescript-eslint/parser` as the parser and can be used with or without React                                         |
+| Export                                    | Description                                                                                                                                                      |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `@djthoms/eslint-config`                  | Main export form the package. This sets up eslint with the recommended config and prettier                                                                       |
+| `@djthoms/eslint-config/esmodules`        | Sets @babel/eslint-parser as the parser, es6 env, modules, and the ecmaVersion to 2018                                                                           |
+| `@djthoms/eslint-config/jest`             | A generic config for writing jest tests with testing-library                                                                                                     |
+| `@djthoms/eslint-config/react`            | A generic config for react projects that combines multiple react eslint plugins for accessibility, JSX, and more. Use with esmodules or typescript, but not both |
+| `@djthoms/eslint-config/react-typescript` | React `.tsx` overrides                                                                                                                                           |
+| `@djthoms/eslint-config/flow`             | A generic flow config that can be used with or without React                                                                                                     |
+| `@djthoms/eslint-config/typescript`       | A generic typescript config that sets up `@typescript-eslint/parser` as the parser and can be used with or without React                                         |
