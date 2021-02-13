@@ -3,6 +3,9 @@
     "version": "4.0.0",
     "description": "",
     "main": "index.js",
+    "files": [
+        "*.js"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -18,16 +21,18 @@
     "license": "MIT",
     "dependencies": {
         "babel-eslint": "^10.0.0",
-        "eslint-config-prettier": "^6.0.0",
+        "eslint": "^7.0.0",
+        "eslint-config-prettier": "^7.0.0",
         "eslint-plugin-flowtype": "^5.0.0",
         "eslint-plugin-import": "^2.0.0",
+        "eslint-plugin-jest": "^24.0.0",
         "eslint-plugin-jsx-a11y": "^6.0.0",
         "eslint-plugin-prettier": "^3.0.0",
         "eslint-plugin-react": "^7.0.0",
-        "eslint-plugin-react-hooks": "^4.0.0"
+        "eslint-plugin-react-hooks": "^4.0.0",
+        "eslint-plugin-testing-library": "^3.0.0"
     },
     "peerDependencies": {
-        "eslint": "^7.0.0",
         "prettier": "^2.0.0"
     },
     "homepage": "https://github.com/atomicpages/eslint-config#readme",
@@ -37,6 +42,14 @@
     },
     "prettier": "@djthoms/prettier-config",
     "devDependencies": {
-        "@djthoms/prettier-config": "^2.0.0"
+        "@djthoms/prettier-config": "^3.2.0"
+    },
+    "eslintConfig": {
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "./index.js"
+        ]
     }
 }
