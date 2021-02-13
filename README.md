@@ -22,7 +22,7 @@ npm i eslint prettier @djthoms/eslint-config --save-dev
 
 ## Parsers
 
--   babel-eslint
+-   @babel/eslint-parser
 -   @typescript-eslint/parser
 
 ## Sample usage with typescript + react
@@ -81,7 +81,7 @@ This package comes with several configurations. They're detailed below:
 | Export                              | Description                                                                                                                                                      |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `@djthoms/eslint-config`            | Main export form the package. This sets up eslint with the recommended config and prettier                                                                       |
-| `@djthoms/eslint-config/esmodules`  | Sets babel-eslint as the parser, es6 env, modules, and the ecmaVersion to 2018                                                                                   |
+| `@djthoms/eslint-config/esmodules`  | Sets @babel/eslint-parser as the parser, es6 env, modules, and the ecmaVersion to 2018                                                                           |
 | `@djthoms/eslint-config/jest`       | A generic config for writing jest tests with testing-library                                                                                                     |
 | `@djthoms/eslint-config/react`      | A generic config for react projects that combines multiple react eslint plugins for accessibility, JSX, and more. Use with esmodules or typescript, but not both |
 | `@djthoms/eslint-config/flow`       | A generic flow config that can be used with or without React                                                                                                     |

@@ -20,7 +20,7 @@
     "author": "Dennis Thompson",
     "license": "MIT",
     "dependencies": {
-        "babel-eslint": "^10.0.0",
+        "@babel/eslint-parser": "^7.0.0",
         "eslint": "^7.0.0",
         "eslint-config-prettier": "^7.0.0",
         "eslint-plugin-flowtype": "^5.0.0",
