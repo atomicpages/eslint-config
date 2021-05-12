@@ -30,7 +30,7 @@
         "eslint-plugin-prettier": "^3.0.0",
         "eslint-plugin-react": "^7.0.0",
         "eslint-plugin-react-hooks": "^4.0.0",
-        "eslint-plugin-testing-library": "^3.0.0"
+        "eslint-plugin-testing-library": "^4.3.0"
     },
     "peerDependencies": {
         "prettier": "^2.0.0"
