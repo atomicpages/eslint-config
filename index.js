@@ -1,6 +1,6 @@
 module.exports = {
-    extends: ['eslint:recommended', 'plugin:prettier/recommended'],
-    plugins: ['prettier'],
+    plugins: ['prettier', 'security'],
+    extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:security/recommended'],
     rules: {
         'prettier/prettier': 'warn',
         eqeqeq: ['error', 'always'],
@@ -29,5 +29,6 @@ module.exports = {
         'no-lonely-if': 'error',
         'no-nested-ternary': 'error',
         'id-denylist': ['error', 'module'],
+        'detect-object-injection': 'off',
     },
 };

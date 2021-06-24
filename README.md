@@ -19,6 +19,7 @@ npm i eslint prettier @djthoms/eslint-config --save-dev
 -   eslint-plugin-react-hooks
 -   eslint-plugin-jest
 -   eslint-plugin-testing-library
+-   eslint-plugin-security
 
 ## Parsers
 

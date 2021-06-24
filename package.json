@@ -22,7 +22,7 @@
     "dependencies": {
         "@babel/eslint-parser": "^7.0.0",
         "eslint": "^7.0.0",
-        "eslint-config-prettier": "^7.0.0",
+        "eslint-config-prettier": "^8.0.0",
         "eslint-plugin-flowtype": "^5.0.0",
         "eslint-plugin-import": "^2.0.0",
         "eslint-plugin-jest": "^24.0.0",
@@ -30,7 +30,8 @@
         "eslint-plugin-prettier": "^3.0.0",
         "eslint-plugin-react": "^7.0.0",
         "eslint-plugin-react-hooks": "^4.0.0",
-        "eslint-plugin-testing-library": "^3.0.0"
+        "eslint-plugin-security": "^1.0.0",
+        "eslint-plugin-testing-library": "^4.0.0"
     },
     "peerDependencies": {
         "prettier": "^2.0.0"
@@ -42,7 +43,14 @@
     },
     "prettier": "@djthoms/prettier-config",
     "devDependencies": {
-        "@djthoms/prettier-config": "^3.2.0"
+        "@djthoms/prettier-config": "^3.2.0",
+        "@erictooth/semantic-release-npm-github-config": "^1.0.3",
+        "husky": "^6.0.0",
+        "lint-staged": "^11.0.0"
+    },
+    "lint-staged": {
+        "*.js": ["prettier --write", "eslint --fix"],
+        "*.md": "prettier --write"
     },
     "eslintConfig": {
         "env": {
@@ -50,6 +58,12 @@
         },
         "extends": [
             "./index.js"
+        ]
+    },
+    "release": {
+        "extends": "@erictooth/semantic-release-npm-github-config",
+        "branches": [
+            "master"
         ]
     }
 }
