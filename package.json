@@ -1,6 +1,6 @@
 {
     "name": "@djthoms/eslint-config",
-    "version": "4.3.0",
+    "version": "4.4.0",
     "description": "",
     "main": "index.js",
     "files": [
@@ -49,7 +49,10 @@
         "lint-staged": "^11.0.0"
     },
     "lint-staged": {
-        "*.js": ["prettier --write", "eslint --fix"],
+        "*.js": [
+            "prettier --write",
+            "eslint --fix"
+        ],
         "*.md": "prettier --write"
     },
     "eslintConfig": {
