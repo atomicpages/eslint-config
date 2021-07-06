@@ -45,7 +45,7 @@
     "devDependencies": {
         "@djthoms/prettier-config": "^3.2.0",
         "@erictooth/semantic-release-npm-github-config": "^1.0.3",
-        "husky": "^6.0.0",
+        "husky": "^7.0.1",
         "lint-staged": "^11.0.0"
     },
     "lint-staged": {
