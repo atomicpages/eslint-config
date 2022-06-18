@@ -1,3 +1,15 @@
+## [5.0.0](https://github.com/atomicpages/eslint-config/compare/v4.3.0...v5.0.0) (2022-06-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to eslint 8
+
+### Features
+
+* add security plugin ([dbe63d6](https://github.com/atomicpages/eslint-config/commit/dbe63d65f887f4232664300fd96b3abfed5c7988))
+* bump pkg versions ([3fc04cd](https://github.com/atomicpages/eslint-config/commit/3fc04cd9dec007f4e72247864d498ac609407650))
+
 ### 2.0.0
 
 - React export no longer extends `esmodules`; extend manually
