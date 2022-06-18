@@ -10,38 +10,38 @@ npm i eslint prettier @djthoms/eslint-config --save-dev
 
 ## Plugins
 
--   eslint-config-prettier
--   eslint-plugin-flowtype
--   eslint-plugin-import
--   eslint-plugin-jsx-a11y
--   eslint-plugin-prettier
--   eslint-plugin-react
--   eslint-plugin-react-hooks
--   eslint-plugin-jest
--   eslint-plugin-testing-library
--   eslint-plugin-security
+- eslint-config-prettier
+- eslint-plugin-flowtype
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-prettier
+- eslint-plugin-react
+- eslint-plugin-react-hooks
+- eslint-plugin-jest
+- eslint-plugin-testing-library
+- eslint-plugin-security
 
 ## Parsers
 
--   @babel/eslint-parser
--   @typescript-eslint/parser
+- @babel/eslint-parser
+- @typescript-eslint/parser
 
 ## Sample usage with typescript + react
 
 ```js
 module.exports = {
-    env: {
-        browser: true,
-        node: true,
-        jest: true,
-        es6: true,
-    },
-    extends: [
-        '@djthoms/eslint-config',
-        '@djthoms/eslint-config/react',
-        '@djthoms/eslint-config/react-typescript',
-        '@djthoms/eslint-config/typescript',
-    ],
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+    es6: true,
+  },
+  extends: [
+    '@djthoms/eslint-config',
+    '@djthoms/eslint-config/react',
+    '@djthoms/eslint-config/react-typescript',
+    '@djthoms/eslint-config/typescript',
+  ],
 };
 ```
 
@@ -55,18 +55,18 @@ npx eslint src/**/*.{ts,tsx}
 
 ```js
 module.exports = {
-    env: {
-        browser: true,
-        node: true,
-        jest: true,
-        es6: true,
-    },
-    extends: [
-        '@djthoms/eslint-config',
-        '@djthoms/eslint-config/esmodules',
-        '@djthoms/eslint-config/react',
-        '@djthoms/eslint-config/flow',
-    ],
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+    es6: true,
+  },
+  extends: [
+    '@djthoms/eslint-config',
+    '@djthoms/eslint-config/esmodules',
+    '@djthoms/eslint-config/react',
+    '@djthoms/eslint-config/flow',
+  ],
 };
 ```
 

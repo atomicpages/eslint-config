@@ -1,72 +1,76 @@
 {
-    "name": "@djthoms/eslint-config",
-    "version": "4.5.0",
-    "description": "",
-    "main": "index.js",
-    "files": [
-        "*.js"
+  "name": "@djthoms/eslint-config",
+  "version": "4.5.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomicpages/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Dennis Thompson",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-flowtype": "^8.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-security": "^1.0.0",
+    "eslint-plugin-testing-library": "^5.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.0"
+  },
+  "homepage": "https://github.com/atomicpages/eslint-config#readme",
+  "optionalDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0"
+  },
+  "prettier": "@djthoms/prettier-config",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@djthoms/prettier-config": "^4.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
+    "semantic-release": "^19.0.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
     ],
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "*.md": "prettier --write"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/atomicpages/eslint-config.git"
-    },
-    "keywords": [
-        "eslint",
-        "eslint-config"
-    ],
-    "author": "Dennis Thompson",
-    "license": "MIT",
-    "dependencies": {
-        "@babel/eslint-parser": "^7.0.0",
-        "eslint": "^7.0.0",
-        "eslint-config-prettier": "^8.0.0",
-        "eslint-plugin-flowtype": "^5.0.0",
-        "eslint-plugin-import": "^2.0.0",
-        "eslint-plugin-jest": "^24.0.0",
-        "eslint-plugin-jsx-a11y": "^6.0.0",
-        "eslint-plugin-prettier": "^3.0.0",
-        "eslint-plugin-react": "^7.0.0",
-        "eslint-plugin-react-hooks": "^4.0.0",
-        "eslint-plugin-security": "^1.0.0",
-        "eslint-plugin-testing-library": "^4.0.0"
-    },
-    "peerDependencies": {
-        "prettier": "^2.0.0"
-    },
-    "homepage": "https://github.com/atomicpages/eslint-config#readme",
-    "optionalDependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.0.0",
-        "@typescript-eslint/parser": "^4.0.0"
-    },
-    "prettier": "@djthoms/prettier-config",
-    "devDependencies": {
-        "@djthoms/prettier-config": "^3.2.0",
-        "@erictooth/semantic-release-npm-github-config": "^1.0.3",
-        "husky": "^6.0.0",
-        "lint-staged": "^11.0.0"
-    },
-    "lint-staged": {
-        "*.js": [
-            "prettier --write",
-            "eslint --fix"
-        ],
-        "*.md": "prettier --write"
-    },
-    "eslintConfig": {
-        "env": {
-            "node": true
-        },
-        "extends": [
-            "./index.js"
-        ]
-    },
-    "release": {
-        "extends": "@erictooth/semantic-release-npm-github-config",
-        "branches": [
-            "master"
-        ]
-    }
+    "extends": [
+      "./index.js"
+    ]
+  },
+  "release": {
+    "extends": "@erictooth/semantic-release-npm-github-config",
+    "branches": [
+      "master"
+    ]
+  }
 }
