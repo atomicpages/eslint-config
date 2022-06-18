@@ -66,11 +66,5 @@
     "extends": [
       "./index.js"
     ]
-  },
-  "release": {
-    "extends": "@erictooth/semantic-release-npm-github-config",
-    "branches": [
-      "master"
-    ]
   }
 }
