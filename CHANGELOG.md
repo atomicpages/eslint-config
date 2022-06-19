@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/atomicpages/eslint-config/compare/v5.0.0...v5.0.1) (2022-06-19)
+
+
+### Bug Fixes
+
+* fix prettier/react error ([7adfd2c](https://github.com/atomicpages/eslint-config/commit/7adfd2ced9ca033bc38d34eee9680b3d8dc05c19))
+
 ## [5.0.0](https://github.com/atomicpages/eslint-config/compare/v4.3.0...v5.0.0) (2022-06-18)
 
 
