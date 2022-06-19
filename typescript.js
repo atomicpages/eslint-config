@@ -16,4 +16,12 @@ module.exports = {
     '@typescript-eslint/prefer-literal-enum-member': 'error',
     '@typescript-eslint/ban-ts-comment': 'error',
   },
+  overrides: [
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
 };

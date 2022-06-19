@@ -1,10 +1,15 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
   extends: [
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'plugin:jsx-a11y/recommended',
-    'prettier/react',
   ],
   parserOptions: {
     ecmaFeatures: {
