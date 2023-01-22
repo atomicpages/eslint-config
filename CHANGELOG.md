@@ -1,3 +1,10 @@
+## [5.1.0](https://github.com/atomicpages/eslint-config/compare/v5.0.1...v5.1.0) (2023-01-22)
+
+
+### Features
+
+* add import packages ([a3ab445](https://github.com/atomicpages/eslint-config/commit/a3ab445ba890cc960fb1a6d97283ceebc4e6b7b0))
+
 ## [5.0.1](https://github.com/atomicpages/eslint-config/compare/v5.0.0...v5.0.1) (2022-06-19)
 
 
