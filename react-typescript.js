@@ -13,6 +13,15 @@ module.exports = {
         'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
+        '@typescript-eslint/ban-types': [
+          'warn',
+          {
+            types: {
+              'JSX.Element': 'If possible, use React.FC instead',
+            },
+            extendDefaults: true,
+          },
+        ],
       },
     },
   ],

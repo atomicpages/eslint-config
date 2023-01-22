@@ -30,5 +30,10 @@ module.exports = {
     'no-nested-ternary': 'error',
     'id-denylist': ['error', 'module'],
     'detect-object-injection': 'off',
+    'guard-for-in': 'error',
+    'no-useless-computed-key': 'error',
+    'prefer-rest-params': 'error',
+    'no-useless-backreference': 'warn',
+    'default-param-last': 'error',
   },
 };
