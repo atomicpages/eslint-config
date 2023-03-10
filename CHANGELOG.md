@@ -1,28 +1,36 @@
-## [5.1.0](https://github.com/atomicpages/eslint-config/compare/v5.0.1...v5.1.0) (2023-01-22)
-
+## [5.2.0](https://github.com/atomicpages/eslint-config/compare/v5.1.0...v5.2.0) (2023-03-10)
 
 ### Features
 
-* add import packages ([a3ab445](https://github.com/atomicpages/eslint-config/commit/a3ab445ba890cc960fb1a6d97283ceebc4e6b7b0))
+- **config:** add solidjs and vitest config
+  ([243ac74](https://github.com/atomicpages/eslint-config/commit/243ac74c195cf670d72b543162735442b4f971d8))
+
+## [5.1.0](https://github.com/atomicpages/eslint-config/compare/v5.0.1...v5.1.0) (2023-01-22)
+
+### Features
+
+- add import packages
+  ([a3ab445](https://github.com/atomicpages/eslint-config/commit/a3ab445ba890cc960fb1a6d97283ceebc4e6b7b0))
 
 ## [5.0.1](https://github.com/atomicpages/eslint-config/compare/v5.0.0...v5.0.1) (2022-06-19)
 
-
 ### Bug Fixes
 
-* fix prettier/react error ([7adfd2c](https://github.com/atomicpages/eslint-config/commit/7adfd2ced9ca033bc38d34eee9680b3d8dc05c19))
+- fix prettier/react error
+  ([7adfd2c](https://github.com/atomicpages/eslint-config/commit/7adfd2ced9ca033bc38d34eee9680b3d8dc05c19))
 
 ## [5.0.0](https://github.com/atomicpages/eslint-config/compare/v4.3.0...v5.0.0) (2022-06-18)
 
-
 ### ⚠ BREAKING CHANGES
 
-* upgrade to eslint 8
+- upgrade to eslint 8
 
 ### Features
 
-* add security plugin ([dbe63d6](https://github.com/atomicpages/eslint-config/commit/dbe63d65f887f4232664300fd96b3abfed5c7988))
-* bump pkg versions ([3fc04cd](https://github.com/atomicpages/eslint-config/commit/3fc04cd9dec007f4e72247864d498ac609407650))
+- add security plugin
+  ([dbe63d6](https://github.com/atomicpages/eslint-config/commit/dbe63d65f887f4232664300fd96b3abfed5c7988))
+- bump pkg versions
+  ([3fc04cd](https://github.com/atomicpages/eslint-config/commit/3fc04cd9dec007f4e72247864d498ac609407650))
 
 ### 2.0.0
 
