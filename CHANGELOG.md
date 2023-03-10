@@ -1,3 +1,10 @@
+## [5.2.1](https://github.com/atomicpages/eslint-config/compare/v5.2.0...v5.2.1) (2023-03-10)
+
+### Bug Fixes
+
+- **ts:** set ts resolver settings
+  ([58a0337](https://github.com/atomicpages/eslint-config/commit/58a0337739f352ed9631a16bec7cfeca62cf3a6e))
+
 ## [5.2.0](https://github.com/atomicpages/eslint-config/compare/v5.1.0...v5.2.0) (2023-03-10)
 
 ### Features
