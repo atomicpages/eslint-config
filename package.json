@@ -7,7 +7,8 @@
     "*.js"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-flowtype": "^8.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-jest": "^27.0.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.0.0",
@@ -40,7 +41,9 @@
   "homepage": "https://github.com/atomicpages/eslint-config#readme",
   "optionalDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0"
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-plugin-solid": "^0.11.0",
+    "eslint-plugin-vitest": "^0.0.54"
   },
   "prettier": "@djthoms/prettier-config",
   "devDependencies": {
@@ -51,7 +54,7 @@
     "@semantic-release/git": "^10.0.1",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.0",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^20.0.0"
   },
   "lint-staged": {
     "*.js": [

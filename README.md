@@ -20,6 +20,8 @@ npm i eslint prettier @djthoms/eslint-config --save-dev
 - eslint-plugin-jest
 - eslint-plugin-testing-library
 - eslint-plugin-security
+- eslint-plugin-vitest
+- eslint-plugin-solid
 
 ## Parsers
 
@@ -37,10 +39,10 @@ module.exports = {
     es6: true,
   },
   extends: [
-    '@djthoms/eslint-config',
-    '@djthoms/eslint-config/react',
-    '@djthoms/eslint-config/react-typescript',
-    '@djthoms/eslint-config/typescript',
+    "@djthoms/eslint-config",
+    "@djthoms/eslint-config/react",
+    "@djthoms/eslint-config/react-typescript",
+    "@djthoms/eslint-config/typescript",
   ],
 };
 ```
@@ -62,10 +64,10 @@ module.exports = {
     es6: true,
   },
   extends: [
-    '@djthoms/eslint-config',
-    '@djthoms/eslint-config/esmodules',
-    '@djthoms/eslint-config/react',
-    '@djthoms/eslint-config/flow',
+    "@djthoms/eslint-config",
+    "@djthoms/eslint-config/esmodules",
+    "@djthoms/eslint-config/react",
+    "@djthoms/eslint-config/flow",
   ],
 };
 ```
@@ -89,3 +91,5 @@ This package comes with several configurations. They're detailed below:
 | `@djthoms/eslint-config/react-typescript` | React `.tsx` overrides                                                                                                                                           |
 | `@djthoms/eslint-config/flow`             | A generic flow config that can be used with or without React                                                                                                     |
 | `@djthoms/eslint-config/typescript`       | A generic typescript config that sets up `@typescript-eslint/parser` as the parser and can be used with or without React                                         |
+| `@djthoms/eslint-config/vitest`           | A generic vitest config                                                                                                                                          |
+| `@djthoms/eslint-config/solid`            | A config that works with solid.js                                                                                                                                |
