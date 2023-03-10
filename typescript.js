@@ -10,6 +10,11 @@ module.exports = {
   parserOptions: {
     sourceType: "module",
   },
+  settings: {
+    "import/resolver": {
+      typescript: true,
+    },
+  },
   rules: {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
