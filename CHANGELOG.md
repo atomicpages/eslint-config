@@ -1,3 +1,10 @@
+## [6.0.1](https://github.com/atomicpages/eslint-config/compare/v6.0.0...v6.0.1) (2023-07-22)
+
+### Bug Fixes
+
+- fix import plugin
+  ([f6a8ef3](https://github.com/atomicpages/eslint-config/commit/f6a8ef3303717f93bfd071a379dfab334b3eda0d))
+
 ## [6.0.0](https://github.com/atomicpages/eslint-config/compare/v5.2.1...v6.0.0) (2023-07-22)
 
 ### ⚠ BREAKING CHANGES
