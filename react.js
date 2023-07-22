@@ -22,7 +22,7 @@ module.exports = {
     },
     "import/ignore": ["\\.svg$", "\\.png$", "\\.jpe?g$"],
   },
-  plugins: ["react", "react-hooks", "jsx-a11y", "import"],
+  plugins: ["react", "react-hooks", "jsx-a11y"],
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
