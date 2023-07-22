@@ -1,3 +1,14 @@
+## [6.0.0](https://github.com/atomicpages/eslint-config/compare/v5.2.1...v6.0.0) (2023-07-22)
+
+### ⚠ BREAKING CHANGES
+
+- ts upgrade is breaking
+
+### Bug Fixes
+
+- upgrade prettier and ts
+  ([7d96087](https://github.com/atomicpages/eslint-config/commit/7d960879e9360ee24f886c7fa7ccf129aa544dd9))
+
 ## [5.2.1](https://github.com/atomicpages/eslint-config/compare/v5.2.0...v5.2.1) (2023-03-10)
 
 ### Bug Fixes
