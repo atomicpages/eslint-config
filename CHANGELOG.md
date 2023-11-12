@@ -1,3 +1,10 @@
+## [6.1.1](https://github.com/atomicpages/eslint-config/compare/v6.1.0...v6.1.1) (2023-11-12)
+
+
+### Bug Fixes
+
+* update deps ([e3a3b9d](https://github.com/atomicpages/eslint-config/commit/e3a3b9d4bddc89ea0c7b6639ddca788da3e6d898))
+
 ## [6.1.0](https://github.com/atomicpages/eslint-config/compare/v6.0.1...v6.1.0) (2023-08-31)
 
 ### Features
