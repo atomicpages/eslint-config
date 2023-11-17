@@ -1,3 +1,10 @@
+## [6.2.0](https://github.com/atomicpages/eslint-config/compare/v6.1.1...v6.2.0) (2023-11-17)
+
+
+### Features
+
+* upgrade dependencies ([bf398c8](https://github.com/atomicpages/eslint-config/commit/bf398c8153f6fb4f122418dfeb6fc7ec618f5e65))
+
 ## [6.1.1](https://github.com/atomicpages/eslint-config/compare/v6.1.0...v6.1.1) (2023-11-12)
 
 
