@@ -39,16 +39,10 @@
     "prettier": "^3.0.0"
   },
   "homepage": "https://github.com/atomicpages/eslint-config#readme",
-  "optionalDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "@typescript-eslint/parser": "^6.10.0",
-    "eslint-plugin-solid": "^0.13.0",
-    "eslint-plugin-vitest": "^0.3.9"
-  },
   "prettier": "@djthoms/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "^18.4.1",
-    "@commitlint/config-conventional": "^18.4.0",
+    "@commitlint/cli": "^18.4.2",
+    "@commitlint/config-conventional": "^18.4.2",
     "@djthoms/prettier-config": "^4.3.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
