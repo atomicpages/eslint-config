@@ -22,8 +22,10 @@
   "license": "MIT",
   "dependencies": {
     "@babel/eslint-parser": "^7.23.3",
-    "eslint": "^8.53.0",
-    "eslint-config-prettier": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.29.0",
@@ -33,7 +35,9 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-security": "^1.7.1",
-    "eslint-plugin-testing-library": "^6.1.2"
+    "eslint-plugin-solid": "^0.13.0",
+    "eslint-plugin-testing-library": "^6.2.0",
+    "eslint-plugin-vitest": "^0.3.16"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
@@ -41,16 +45,18 @@
   "homepage": "https://github.com/atomicpages/eslint-config#readme",
   "prettier": "@djthoms/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "^18.4.2",
-    "@commitlint/config-conventional": "^18.4.2",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
     "@djthoms/prettier-config": "^4.3.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@types/node": "^20.10.4",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
-    "lint-staged": "^15.1.0",
-    "semantic-release": "^22.0.7",
-    "vitest": "^0.34.6"
+    "lint-staged": "^15.2.0",
+    "semantic-release": "^22.0.12",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
   },
   "lint-staged": {
     "*.js": [

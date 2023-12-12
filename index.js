@@ -6,7 +6,7 @@ module.exports = {
     "plugin:security/recommended",
   ],
   rules: {
-    "prettier/prettier": "warn",
+    "prettier/prettier": "error",
     eqeqeq: ["error", "always"],
     "no-eval": "error",
     "no-implied-eval": "error",
