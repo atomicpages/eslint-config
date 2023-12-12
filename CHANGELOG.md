@@ -1,3 +1,10 @@
+## [6.2.1](https://github.com/atomicpages/eslint-config/compare/v6.2.0...v6.2.1) (2023-12-12)
+
+
+### Bug Fixes
+
+* move optional deps to regular deps ([c853a90](https://github.com/atomicpages/eslint-config/commit/c853a904cca2a8d1f8490463c964507ff5e6c01b))
+
 ## [6.2.0](https://github.com/atomicpages/eslint-config/compare/v6.1.1...v6.2.0) (2023-11-17)
 
 
