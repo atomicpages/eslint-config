@@ -1,3 +1,10 @@
+## [6.3.0](https://github.com/atomicpages/eslint-config/compare/v6.2.1...v6.3.0) (2024-03-30)
+
+
+### Features
+
+* upgrade typescript to support flat file config ([d19cab0](https://github.com/atomicpages/eslint-config/commit/d19cab0dcfcd7e0bd4758d02fb8a811ebbc15c55))
+
 ## [6.2.1](https://github.com/atomicpages/eslint-config/compare/v6.2.0...v6.2.1) (2023-12-12)
 
 
