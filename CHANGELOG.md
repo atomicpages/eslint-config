@@ -1,3 +1,10 @@
+## [6.4.0](https://github.com/atomicpages/eslint-config/compare/v6.3.0...v6.4.0) (2024-04-25)
+
+
+### Features
+
+* upgrade typescript parser ([4c2b0bd](https://github.com/atomicpages/eslint-config/commit/4c2b0bd942fe4e3b9fe806baf0b6e2196a2f74b6))
+
 ## [6.3.0](https://github.com/atomicpages/eslint-config/compare/v6.2.1...v6.3.0) (2024-03-30)
 
 
