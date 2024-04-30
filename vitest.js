@@ -1,4 +1,4 @@
 module.exports = {
   plugins: ["vitest"],
-  extends: ["plugin:vitest/recommended"],
+  extends: ["plugin:vitest/legacy-recommended"],
 };
