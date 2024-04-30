@@ -1,3 +1,10 @@
+## [6.4.2](https://github.com/atomicpages/eslint-config/compare/v6.4.1...v6.4.2) (2024-04-30)
+
+
+### Bug Fixes
+
+* use legacy vitest config ([9bdbd27](https://github.com/atomicpages/eslint-config/commit/9bdbd275e876016ab3d9899fcc91553605e96792))
+
 ## [6.4.1](https://github.com/atomicpages/eslint-config/compare/v6.4.0...v6.4.1) (2024-04-30)
 
 
