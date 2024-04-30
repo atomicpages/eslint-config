@@ -1,3 +1,10 @@
+## [6.4.1](https://github.com/atomicpages/eslint-config/compare/v6.4.0...v6.4.1) (2024-04-30)
+
+
+### Bug Fixes
+
+* use legacy security ([3db6fbc](https://github.com/atomicpages/eslint-config/commit/3db6fbc7f4e144c524f895000c2cc00ccef9ae35))
+
 ## [6.4.0](https://github.com/atomicpages/eslint-config/compare/v6.3.0...v6.4.0) (2024-04-25)
 
 
