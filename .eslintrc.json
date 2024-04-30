@@ -7,13 +7,13 @@
     "./index.js",
     "./vitest.js"
   ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "overrides": [
     {
       "files": ["*.ts", "*.mts", "*.tsx"],
-      "extends": "./typescript.js",
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      }
+      "extends": "./typescript.js"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "*.js": [
+    "prettier --write",
+    "eslint --fix"
+  ],
+  "*.md": "prettier --write"
+},
+"eslintConfig": {
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "./index.js"
+  ]
+}

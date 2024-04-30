@@ -8,5 +8,5 @@
     "lib": ["ES2022"],
     "strictNullChecks": true
   },
-  "include": ["test", "vitest.config.mts"]
+  "include": ["test", "vitest.config.mts", "tests"]
 }
