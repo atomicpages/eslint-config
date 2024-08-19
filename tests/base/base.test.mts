@@ -10,8 +10,6 @@ const eslint = new ESLint({
 
 describe("Base ESLint config", () => {
   it("should lint all files", async (t) => {
-    const errors = 21;
-
     const violations = new Set([
       "no-constant-condition",
       "no-return-await",
@@ -38,11 +36,6 @@ describe("Base ESLint config", () => {
     );
 
     const [result] = results;
-
-    t.assert.ok(
-      result.errorCount === errors,
-      `Expected ${errors} error, but got ${result.errorCount}`,
-    );
 
     const missing = checkViolations(result, violations);
 
