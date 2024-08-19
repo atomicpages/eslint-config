@@ -1,9 +1,10 @@
 module.exports = {
-  plugins: ["prettier", "security"],
+  plugins: ["prettier", "security", "unicorn"],
   extends: [
     "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:security/recommended-legacy",
+    "plugin:unicorn/recommended",
   ],
   rules: {
     "prettier/prettier": "error",
@@ -31,13 +32,13 @@ module.exports = {
     "no-var": "error",
     "prefer-const": "error",
     "no-lonely-if": "error",
-    "no-nested-ternary": "error",
-    "id-denylist": ["error", "module"],
+    "no-nested-ternary": "off",
     "detect-object-injection": "off",
     "guard-for-in": "error",
     "no-useless-computed-key": "error",
     "prefer-rest-params": "error",
     "no-useless-backreference": "warn",
     "default-param-last": "error",
+    "unicorn/prefer-module": "off",
   },
 };

@@ -2,11 +2,12 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
     "target": "ES2022",
     "resolveJsonModule": true,
     "lib": ["ES2022"],
     "strictNullChecks": true
   },
-  "include": ["test", "vitest.config.mts"]
+  "include": ["tests", "vitest.config.mts"]
 }

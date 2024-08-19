@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es2018": true
+  },
+  "extends": [
+    "../../index.js"
+  ]
+}

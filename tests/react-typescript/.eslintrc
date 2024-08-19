@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "../../index.js",
+    "../../typescript.js",
+    "../../react.js",
+    "../../react-typescript.js"
+  ]
+}
