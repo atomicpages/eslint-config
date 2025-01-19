@@ -5,13 +5,12 @@ My eslint config settings.
 ## Usage
 
 ```sh
-npm i eslint prettier @djthoms/eslint-config --save-dev
+npm i -D eslint prettier @djthoms/eslint-config
 ```
 
 ## Plugins
 
 - eslint-config-prettier
-- eslint-plugin-flowtype
 - eslint-plugin-import
 - eslint-plugin-jsx-a11y
 - eslint-plugin-prettier
@@ -28,7 +27,7 @@ npm i eslint prettier @djthoms/eslint-config --save-dev
 - @babel/eslint-parser
 - @typescript-eslint/parser
 
-## Sample usage with typescript + react
+## Legacy config with typescript + react
 
 ```js
 module.exports = {
@@ -39,43 +38,28 @@ module.exports = {
     es6: true,
   },
   extends: [
-    "@djthoms/eslint-config",
-    "@djthoms/eslint-config/react",
-    "@djthoms/eslint-config/react-typescript",
-    "@djthoms/eslint-config/typescript",
+    "@djthoms/eslint-config/legacy",
+    "@djthoms/eslint-config/legacy/react",
+    "@djthoms/eslint-config/legacy/react-typescript",
+    "@djthoms/eslint-config/legacy/typescript",
   ],
 };
+```
+
+## Flat config with typescript + react
+
+```js
+import config from "@djthoms/eslint-config";
+
+export default [
+  ...config
+];
 ```
 
 Run through CLI:
 
 ```bash
 npx eslint src/**/*.{ts,tsx}
-```
-
-### Sample usage using flow + react
-
-```js
-module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    jest: true,
-    es6: true,
-  },
-  extends: [
-    "@djthoms/eslint-config",
-    "@djthoms/eslint-config/esmodules",
-    "@djthoms/eslint-config/react",
-    "@djthoms/eslint-config/flow",
-  ],
-};
-```
-
-Run through CLI:
-
-```sh
-npx eslint 'src/**/*.{js,jsx}'
 ```
 
 ## Available Configurations
